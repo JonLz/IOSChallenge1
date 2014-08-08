@@ -21,6 +21,7 @@
 		98B744E919945D840020B49E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B744CB19945D840020B49E /* UIKit.framework */; };
 		98B744F119945D840020B49E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98B744EF19945D840020B49E /* InfoPlist.strings */; };
 		98B744F319945D840020B49E /* IOS_Challenge_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B744F219945D840020B49E /* IOS_Challenge_1Tests.m */; };
+		98B744FE199462330020B49E /* DetailVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B744FD199462330020B49E /* DetailVIewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		98B744EE19945D840020B49E /* IOS Challenge 1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOS Challenge 1Tests-Info.plist"; sourceTree = "<group>"; };
 		98B744F019945D840020B49E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98B744F219945D840020B49E /* IOS_Challenge_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_Challenge_1Tests.m; sourceTree = "<group>"; };
+		98B744FC199462330020B49E /* DetailVIewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVIewController.h; sourceTree = "<group>"; };
+		98B744FD199462330020B49E /* DetailVIewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVIewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				98B744DD19945D840020B49E /* ViewController.m */,
 				98B744DF19945D840020B49E /* Images.xcassets */,
 				98B744CE19945D840020B49E /* Supporting Files */,
+				98B744FC199462330020B49E /* DetailVIewController.h */,
+				98B744FD199462330020B49E /* DetailVIewController.m */,
 			);
 			path = "IOS Challenge 1";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				98B744DE19945D840020B49E /* ViewController.m in Sources */,
 				98B744D819945D840020B49E /* AppDelegate.m in Sources */,
 				98B744D419945D840020B49E /* main.m in Sources */,
+				98B744FE199462330020B49E /* DetailVIewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
